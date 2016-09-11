@@ -1,0 +1,8 @@
+#identifier {
+    display: block;
+    text-decoration:none;
+    visibility: hidden;
+}
+#error {
+    display: block;
+}

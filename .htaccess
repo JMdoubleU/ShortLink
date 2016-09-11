@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^(([\w|\d]){1,6})$ get.php?identifier=$1 [L]
+
+<FilesMatch "\.htaccess|config\.php|database\.php">
+  #Require all denied
+  order allow,deny
+  Deny from all
+</FilesMatch>
