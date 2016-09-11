@@ -20,11 +20,4 @@ $(document).ready(function() {
             }
         });
     });
-    $('#TextBoxId').keypress(function(e){
-        console.log("press");
-        if(e.keyCode == 13) {
-            console.log("press2");
-            $('#create').click();
-        }
-    });
 });
